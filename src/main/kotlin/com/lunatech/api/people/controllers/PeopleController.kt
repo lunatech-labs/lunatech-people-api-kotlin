@@ -17,7 +17,7 @@ class PeopleController {
      * Primary endpoint for the People API.
      * A set of filters and field constraints can
      * be provided in the request parameters which
-     * are then applied to a list of people.
+     * are then applied to the list of people.
      */
     @GetMapping("/api/people")
     fun getPeople(@RequestParam allRequestParams: Map<String, String>): List<JsonObject> {

@@ -43,13 +43,13 @@ class StringUtils {
          */
         fun parseAndOrString(toParse: String): IntArray {
             var delimeters = listOf(DELIMETER_AND, DELIMETER_OR)
-            var found = IntArray(delimeters.size, { 0 })
+            var found = IntArray(delimeters.size, { Constants.NOT_SATISFIED })
 
             for (i in (0..delimeters.size - 1)) {
                 val d = delimeters[i]
 
                 if(toParse.contains(d)) {
-                    found[i] = 1
+                    found[i] = Constants.SATISFIED
                 }
             }
 

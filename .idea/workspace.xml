@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dcd2c72-df05-4a03-86db-786d3a2e5589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lunatech/api/people/utils/Utils$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/lunatech/api/people/utils/Utils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -51,23 +47,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1926" />
+          <entry key="kt" value="1976" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1926" />
+          <entry key="Kotlin" value="1976" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#45#384#0" expanded="true" />
               </folding>
@@ -90,17 +86,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="1232">
+              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5324">
-              <caret line="242" column="79" selection-start-line="242" selection-start-column="79" selection-end-line="242" selection-end-column="79" />
+            <state relative-caret-position="1430">
+              <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -581,10 +577,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/model/Person.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/Constants.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt" />
       </list>
     </option>
   </component>
@@ -655,7 +651,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541682721673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541683248408" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -695,12 +691,12 @@
       <workItem from="1541062967154" duration="2271000" />
       <workItem from="1541067465040" duration="12000" />
       <workItem from="1541067813291" duration="7000" />
-      <workItem from="1541668768312" duration="6867000" />
+      <workItem from="1541668768312" duration="7381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9157000" />
+    <option name="totallyTimeSpent" value="9671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -716,7 +712,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21695258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23007064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -768,20 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/model/Person.kt">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#39#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state relative-caret-position="1122">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -792,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -806,20 +785,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="1430">
+          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/StringUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/model/Person.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#45#384#0" expanded="true" />
+            <element signature="e#39#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/utils/PeopleUtils.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/lunatech/api/people/controllers/PeopleController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5324">
-          <caret line="242" column="79" selection-start-line="242" selection-start-column="79" selection-end-line="242" selection-end-column="79" />
+        <state relative-caret-position="418">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#45#384#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

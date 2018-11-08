@@ -35,35 +35,35 @@ class PeopleUtils {
             var peopleToFilter: List<Person> = people.filter {_ -> true}
 
             if(filters.containsKey(Constants.PARAM_COUNTRY)) {
-                var countryString: String = filters.get(Constants.PARAM_COUNTRY)!!
+                var countryString: String = filters[Constants.PARAM_COUNTRY]!!
                 var countries: List<String> = countryString.split(Constants.DELIMETER_OR)
 
                 peopleToFilter = filterByCountries(peopleToFilter, countries)
             }
 
             if(filters.containsKey(Constants.PARAM_FULL_NAME)) {
-                var fullNameString: String = filters.get(Constants.PARAM_FULL_NAME)!!
+                var fullNameString: String = filters[Constants.PARAM_FULL_NAME]!!
                 var fullNames: List<String> = fullNameString.split(Constants.DELIMETER_OR)
 
                 peopleToFilter = filterByFullNames(peopleToFilter, fullNames)
             }
 
             if(filters.containsKey(Constants.PARAM_LEVEL)) {
-                var levelString: String = filters.get(Constants.PARAM_LEVEL)!!
+                var levelString: String = filters[Constants.PARAM_LEVEL]!!
                 var levels: List<String> = levelString.split(Constants.DELIMETER_OR)
 
                 peopleToFilter = filterByLevels(peopleToFilter, levels)
             }
 
             if(filters.containsKey(Constants.PARAM_MANAGERS)) {
-                var managerString: String = filters.get(Constants.PARAM_MANAGERS)!!
+                var managerString: String = filters[Constants.PARAM_MANAGERS]!!
                 var managers: List<String> = managerString.split(Constants.DELIMETER_OR)
 
                 peopleToFilter = filterByManagers(peopleToFilter, managers)
             }
 
             if(filters.containsKey(Constants.PARAM_ROLES)) {
-                var rolesString: String = filters.get(Constants.PARAM_ROLES)!!
+                var rolesString: String = filters[Constants.PARAM_ROLES]!!
                 var roles: List<String>
 
                 val operations = StringUtils.parseAndOrString(rolesString)
