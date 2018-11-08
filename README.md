@@ -32,7 +32,7 @@ git clone https://github.com/lunatech-labs/lunatech-people-api-kotlin.git
 
 Open IntelliJ
 
-![alt text](http://www.developintelligence.com/blog/wp-content/uploads/2017/05/kotlin_250x250.png)
+![alt text](src/main/resources/images/installation-guide/3.png)
 
 
 ## Built With
