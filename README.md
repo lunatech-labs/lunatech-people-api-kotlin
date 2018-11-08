@@ -18,6 +18,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
+Follow these instructions.
+
+---
+
 Navigate to the directory where this git repo will be cloned
 
 ```
@@ -34,6 +38,40 @@ Open IntelliJ
 
 ![alt text](src/main/resources/images/installation-guide/3.png)
 
+
+Click 'Open'
+
+![alt text](src/main/resources/images/installation-guide/4.png)
+
+Navigate to root directory of git repo
+
+![alt text](src/main/resources/images/installation-guide/5.png)
+
+Click 'Open'
+
+![alt text](src/main/resources/images/installation-guide/6.png)
+
+Click Play Button
+
+![alt text](src/main/resources/images/installation-guide/7.png)
+
+The app should now be running
+
+![alt text](src/main/resources/images/installation-guide/8.png)
+
+Open a web browser
+
+![alt text](src/main/resources/images/installation-guide/9.png)
+
+Navigate to URL 'localhost:8080/api/people/apiKey={apiKey}
+
+![alt text](src/main/resources/images/installation-guide/10.png)
+
+A list of JSON objects should be displayed in your browser
+
+---
+
+All done! Feel free to play around with the filter parameters.
 
 ## Built With
 
