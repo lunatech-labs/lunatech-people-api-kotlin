@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pureconfig:pureconfig_2.12:0.9.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pureconfig/pureconfig_2.12/0.9.2/252285efa6776da16205e6b5cd07b64d1cffdb8d/pureconfig_2.12-0.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pureconfig/pureconfig_2.12/0.9.2/ac43fea0658b31aa3b060e1632e58b99353b6c1d/pureconfig_2.12-0.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

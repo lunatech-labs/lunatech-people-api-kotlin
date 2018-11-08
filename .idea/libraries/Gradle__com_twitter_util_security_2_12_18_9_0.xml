@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:util-security_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-security_2.12/18.9.0/5ee8d76145be82a3a879f0978f6f513fb7c471b2/util-security_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-security_2.12/18.9.0/60392fc3cab70032bc0f660d4af035383ba3b8b5/util-security_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

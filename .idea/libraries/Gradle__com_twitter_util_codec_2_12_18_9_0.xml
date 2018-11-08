@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:util-codec_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-codec_2.12/18.9.0/4fdea7f6abcb60d26844f84b0762e9e45328abf6/util-codec_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-codec_2.12/18.9.0/dac3f4fa0ad9e1590eb8aeacf1816c998f0d2b8f/util-codec_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

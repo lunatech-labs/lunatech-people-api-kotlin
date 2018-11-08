@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:finagle-http-cookie_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-http-cookie_2.12/18.9.0/36e85bd3d7f026f6d68aa02de39ea932e2413994/finagle-http-cookie_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/finagle-http-cookie_2.12/18.9.0/123b911ef033013cc4e34f00d8a3c89e02ef40d5/finagle-http-cookie_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:util-cache_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-cache_2.12/18.9.0/a3ec011fa8634eac537074af1875cfcc89b25685/util-cache_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-cache_2.12/18.9.0/94140ab06b45515dc2f6e45c0d37c21b94fa37bd/util-cache_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

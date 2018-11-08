@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.finagle:finch-iteratee_2.12:0.24.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.finagle/finch-iteratee_2.12/0.24.0/ea911e760b54a042c3293260e19ea649932d2497/finch-iteratee_2.12-0.24.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.finagle/finch-iteratee_2.12/0.24.0/3bdd090b1c16c00105cc4b861798672b042e4115/finch-iteratee_2.12-0.24.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

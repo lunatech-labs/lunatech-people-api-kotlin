@@ -1,5 +1,6 @@
 package com.lunatech.api.people.controllers
 
+import com.google.gson.JsonObject
 import com.lunatech.api.people.model.Person
 import com.lunatech.api.people.service.PersonService
 import com.lunatech.api.people.utils.Utils
@@ -18,6 +19,7 @@ class PeopleController {
     val PARAM_LEVEL = "level"
     val PARAM_MANAGERS = "managers"
     val PARAM_ROLES = "roles"
+    val PARAM_FIELDS = "fields"
 
     val DELIMETER_OR = ","
     val DELIMETER_AND = ";"
@@ -27,21 +29,30 @@ class PeopleController {
     val SEQUENCE_OR = 1
 
     @GetMapping("/api/people")
-    fun getPeopleByFilters(@RequestParam allRequestParams: Map<String, String>): List<Person> {
-        for (param in allRequestParams) {
-            println(param.key + ": " + param.value)
-        }
+    fun getPeople(@RequestParam allRequestParams: Map<String, String>): List<JsonObject> {
+        var allPeople =
+                personService.getPeople()
 
-        var allPeople: List<Person> = personService.getPeople()
+        var filteredPeople =
+                applyFilters(allPeople, allRequestParams)
 
-        //println(allPeople.size)
-
-        var filteredPeople: List<Person> = applyFilters(allPeople, allRequestParams)
-
-        //println(filteredPeople.size)
-        //println()
+        var filterFields =
+                processFieldsParam(allRequestParams)
 
         return filteredPeople
+                .map { p -> p.toJSON(filterFields) }
+    }
+
+    fun processFieldsParam(allRequestParams: Map<String, String>): List<String> {
+        if(!allRequestParams.containsKey(PARAM_FIELDS)) {
+            return Person.getFieldNames()
+        }
+
+        var fields = allRequestParams[PARAM_FIELDS]!!
+
+        return fields
+                .split(DELIMETER_OR)
+                .map { f -> Utils.removeSpaces(f) }
     }
 
     fun applyFilters(people: List<Person>, filters: Map<String, String>): List<Person> {

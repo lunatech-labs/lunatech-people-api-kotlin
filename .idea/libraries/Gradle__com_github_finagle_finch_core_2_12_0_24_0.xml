@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.finagle:finch-core_2.12:0.24.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.finagle/finch-core_2.12/0.24.0/5ee795248ee270dfbf582b36e1cfa6893e40cd9f/finch-core_2.12-0.24.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.finagle/finch-core_2.12/0.24.0/2e0deb1c1698d7870681b07bb1d8c49fa6dc25e1/finch-core_2.12-0.24.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

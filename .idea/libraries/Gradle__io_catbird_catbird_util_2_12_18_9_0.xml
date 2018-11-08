@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.catbird:catbird-util_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.catbird/catbird-util_2.12/18.9.0/68658e3366529d4fa60d29e937bb1ae208e8c21/catbird-util_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.catbird/catbird-util_2.12/18.9.0/eb9d581226a4aef2983836cc08a07fb6e797ffe3/catbird-util_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

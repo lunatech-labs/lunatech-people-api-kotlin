@@ -6,6 +6,7 @@ class Utils {
 
         val ALL_NON_ALPHABETS = "[^A-Za-z]".toRegex()
         val EMPTY_CHARACTER = ""
+        val SPACE_CHARACTER = " "
 
         val DELIMETER_OR = ","
         val DELIMETER_AND = ";"
@@ -53,6 +54,17 @@ class Utils {
             }
 
             return found
+        }
+
+        /**
+         * Processes a piece of text by removing
+         * all spaces.
+         *
+         * Sample Input -> Output:
+         * " Nicolas leRoux09" -> "NICOLASLEROUX"
+         */
+        fun removeSpaces(text: String): String {
+            return text.replace(SPACE_CHARACTER, EMPTY_CHARACTER)
         }
 
     }

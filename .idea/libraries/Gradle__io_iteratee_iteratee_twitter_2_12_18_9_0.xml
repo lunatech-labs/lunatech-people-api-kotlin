@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.iteratee:iteratee-twitter_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.iteratee/iteratee-twitter_2.12/18.9.0/384cb92939a3c5d1c7346cbd730404bcfa763da2/iteratee-twitter_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.iteratee/iteratee-twitter_2.12/18.9.0/f038d3fef72fe45b988cf874a3b702baf5e61c1e/iteratee-twitter_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

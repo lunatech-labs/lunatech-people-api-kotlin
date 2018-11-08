@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:util-registry_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-registry_2.12/18.9.0/25d1334055d952ad572589bd8a7b574f36714330/util-registry_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-registry_2.12/18.9.0/450b17dcfd7135cb3a81f3decc1e5ad187482ff/util-registry_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

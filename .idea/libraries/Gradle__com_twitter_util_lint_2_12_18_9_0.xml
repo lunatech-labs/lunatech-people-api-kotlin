@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twitter:util-lint_2.12:18.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-lint_2.12/18.9.0/7939c770b60201444ff64c15175a9a296b432265/util-lint_2.12-18.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-lint_2.12/18.9.0/dceb36b07e3b14262191bfc56392a50ea430fbc2/util-lint_2.12-18.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

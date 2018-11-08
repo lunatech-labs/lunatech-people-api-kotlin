@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.iteratee:iteratee-core_2.12:0.18.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.iteratee/iteratee-core_2.12/0.18.0/15f7f1f64360ec59299f9f95dcf16ba2ddcf64b9/iteratee-core_2.12-0.18.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.iteratee/iteratee-core_2.12/0.18.0/597b3f95f2213a01895f7ba921899e307257e83d/iteratee-core_2.12-0.18.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
