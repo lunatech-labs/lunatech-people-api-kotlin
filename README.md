@@ -18,21 +18,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Navigate to the directory where this git repo will be cloned
 
 ```
-Give the example
+cd path/to/directory
 ```
 
-And repeat
+Clone the git repo
 
 ```
-until finished
+git clone https://github.com/lunatech-labs/lunatech-people-api-kotlin.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Open IntelliJ
+
+![alt-text][https://github.com/lunatech-labs/lunatech-people-api-kotlin/]
+
 
 ## Built With
 
