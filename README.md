@@ -1,11 +1,33 @@
 # Lunatech People API in Kotlin
 
+## Introduction
+
+### Overview
+
 A simple API providing information about Lunatech employees. 
 Ported from Scala to Kotlin.
 
 The following operations can be performed on the API:
 * Filter People by Property Value
 * Filter Fields by Field Name
+
+### Reference
+
+There is only one main endpoint in this API - */api/people*,  which returns a list of all Lunatech employees.
+
+An API key is required to access this endpoint - */api/people?apiKey={apiKey}*, where '{apiKey}' is replaced with an apiKey.
+
+The real filtering functionality of the API lies in the request parameters specified after the '?' in the URL. Each of these request parameters is separated by a '&'.
+
+The following table provides reference for each paramater.
+
+| Parameter Name| Description                   | Usage  | Notes |
+| -------------: | :----------------------------- | :----- | :---: |
+| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}  | |
+| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}  | |
+| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}  | |
+| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}  | |
+| roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1,role2}  | This is a special filter where both the AND and OR operation can be used |
 
 ## Getting Started
 
