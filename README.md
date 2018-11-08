@@ -1,20 +1,20 @@
 # Lunatech People API in Kotlin
 
-A simple API providing information about Lunatech employees.
+A simple API providing information about Lunatech employees. 
+Ported from Scala to Kotlin.
 
-This API is a Kotlin rewrite of the original People API written in Scala.
+The following operations can be performed on the API:
+* Filter People by Property Value
+* Filter Fields by Field Name
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* [JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)      Version 11.0.1
+* [INTELLIJ](https://www.jetbrains.com/idea/download) Version 2018.2.5
 
 ### Installing
 
@@ -56,13 +56,16 @@ Give an example
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Kotlin](https://kotlinlang.org/) - Programming Language
+* [SpringBoot](http://spring.io/projects/spring-boot) - Web Framework
+* [Gradle](https://gradle.org/) - Dependency Management
+* [IntelliJ](https://www.jetbrains.com/idea/) - IDE
+* [GSON](https://github.com/google/gson) - JSON Serialization & Deserialization
 
 
 ## Authors
 
 * **Muratcan Celayir**
 * **Hrishi Mukherjee**
+* **Mohammad Fazel**
 
