@@ -1,6 +1,6 @@
 package com.lunatech.api.people.utils
 
-class Utils {
+class StringUtils {
 
     companion object {
 
