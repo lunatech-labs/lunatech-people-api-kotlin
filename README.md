@@ -32,7 +32,7 @@ git clone https://github.com/lunatech-labs/lunatech-people-api-kotlin.git
 
 Open IntelliJ
 
-![alt text][https://github.com/lunatech-labs/lunatech-people-api-kotlin/edit/master/README.md]
+![alt text](https://github.com/lunatech-labs/lunatech-people-api-kotlin/edit/master/README.md)
 
 
 ## Built With
