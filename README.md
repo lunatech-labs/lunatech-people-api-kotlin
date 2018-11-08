@@ -34,7 +34,7 @@ Clone the git repo
 git clone https://github.com/lunatech-labs/lunatech-people-api-kotlin.git
 ```
 
-Open IntelliJ
+Click IntelliJ app icon
 
 ![alt text](src/main/resources/images/installation-guide/3.png)
 
@@ -43,7 +43,7 @@ Click 'Open'
 
 ![alt text](src/main/resources/images/installation-guide/4.png)
 
-Navigate to root directory of git repo
+Navigate to the root directory of git repo
 
 ![alt text](src/main/resources/images/installation-guide/5.png)
 
