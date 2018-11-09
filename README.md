@@ -19,7 +19,7 @@ An **API key** is required to access this endpoint - */api/people?apiKey={apiKey
 
 The real **filtering functionality** of the API lies in the request parameters specified after the '?' in the URL. Each of these request parameters is separated by a '&'.
 
-All user input values for the parameters are run through text processing. This allows the API to handle noisy pieces of text with irrelevant digits and spaces. For example, fullName=" joHn09 doE " will be handled as fullName="JOHNDOE".
+All user input values for the parameters are run through **text processing**. This allows the API to handle noisy pieces of text with irrelevant digits and spaces. For example, fullName=" joHn09 doE " will be handled as fullName="JOHNDOE".
 
 The following tables provide reference for the API.
 
