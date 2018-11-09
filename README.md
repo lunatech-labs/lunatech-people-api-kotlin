@@ -26,7 +26,7 @@ The following tables provide reference for the API.
 | Parameter Name| Description                   | Usage  |
 | -------------: | :----------------------------- | :----- | 
 | country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country1},{country2},...,{countryN}*  | 
-| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName1},{fullName1},...,{fullNameN}*  | 
+| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName1},{fullName2},...,{fullNameN}*  | 
 | level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level1},{level2},...,{levelN}*  | 
 | managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={manager1},{manager2},...,{managerN}*  | 
 | roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}*  |
