@@ -23,12 +23,12 @@ The following table provides reference for each paramater.
 
 | Parameter Name| Description                   | Usage  |
 | -------------: | :----------------------------- | :----- | 
-| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}  | 
-| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}  | 
-| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}  | 
-| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}  | 
-| roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}  |
-| fields       | which fields returned in JSON | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}  |
+| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}*  | 
+| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}*  | 
+| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}*  | 
+| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}*  | 
+| roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}*  |
+| fields       | which fields returned in JSON | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}*  |
 
 ## Getting Started
 
