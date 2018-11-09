@@ -25,10 +25,10 @@ The following tables provide reference for the API.
 
 | Parameter Name| Description                   | Usage  |
 | -------------: | :----------------------------- | :----- | 
-| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}*  | 
-| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}*  | 
-| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}*  | 
-| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}*  | 
+| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country1},{country2},...,{countryN}*  | 
+| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName1},{fullName1},...,{fullNameN}*  | 
+| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level1},{level2},...,{levelN}*  | 
+| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={manager1},{manager2},...,{managerN}*  | 
 | roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}*  |
 | fields       | which fields to be returned in query | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}*  |
 
@@ -43,10 +43,10 @@ The following tables provide reference for the API.
 
 | Parameter Name | OR | AND  |
 | -------------: | :---:| :-----: | 
-| country       | N | N | 
-| fullName      | N | N  | 
-| level       | N |  N | 
-| managers       | N |  N | 
+| country       | Y | N | 
+| fullName      | Y | N  | 
+| level       | Y |  N | 
+| managers       | Y |  N | 
 | roles       | Y | Y  |
 | fields       | Y | N  |
 
