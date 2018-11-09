@@ -7,17 +7,19 @@
 A simple API providing information about Lunatech employees. 
 Ported from Scala to Kotlin.
 
-The following operations can be performed on the API:
+The API exposes the following functionality:
 * Filter People by Property Value
 * Filter Fields by Field Name
 
 ### Reference
 
-There is only one main endpoint in this API - */api/people*,  which returns a list of all Lunatech employees.
+There is only one **main endpoint** in this API - */api/people*,  which returns a list of all Lunatech employees.
 
-An API key is required to access this endpoint - */api/people?apiKey={apiKey}*, where '{apiKey}' is replaced with an apiKey.
+An **API key** is required to access this endpoint - */api/people?apiKey={apiKey}*, where '{apiKey}' is replaced with an apiKey.
 
-The real filtering functionality of the API lies in the request parameters specified after the '?' in the URL. Each of these request parameters is separated by a '&'.
+The real **filtering functionality** of the API lies in the request parameters specified after the '?' in the URL. Each of these request parameters is separated by a '&'.
+
+All user input values for the parameters are run through text processing. This allows the API to handle noisy pieces of text with irrelevant digits and spaces. For example, fullName=" joHn09 doE " will be handled as fullName="JOHNDOE".
 
 The following tables provide reference for the API.
 
