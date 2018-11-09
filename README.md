@@ -21,13 +21,14 @@ The real filtering functionality of the API lies in the request parameters speci
 
 The following table provides reference for each paramater.
 
-| Parameter Name| Description                   | Usage  | Notes |
-| -------------: | :----------------------------- | :----- | :---: |
-| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}  | |
-| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}  | |
-| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}  | |
-| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}  | |
-| roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1,role2}  | This is a special filter where both the AND and OR operation can be used |
+| Parameter Name| Description                   | Usage  |
+| -------------: | :----------------------------- | :----- | 
+| country       | filter by country of employee | */api/people?apiKey={apiKey}&country={country}  | 
+| fullName      | filter by full name of employee | */api/people?apiKey={apiKey}&fullName={fullName}  | 
+| level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}  | 
+| managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}  | 
+| roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}  |
+| fields       | which fields returned in JSON | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}  |
 
 ## Getting Started
 
