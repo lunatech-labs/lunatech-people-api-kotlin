@@ -19,7 +19,9 @@ An API key is required to access this endpoint - */api/people?apiKey={apiKey}*, 
 
 The real filtering functionality of the API lies in the request parameters specified after the '?' in the URL. Each of these request parameters is separated by a '&'.
 
-The following table provides reference for each paramater.
+The following tables provide reference for the API.
+
+**Request Parameters**
 
 | Parameter Name| Description                   | Usage  |
 | -------------: | :----------------------------- | :----- | 
@@ -28,7 +30,25 @@ The following table provides reference for each paramater.
 | level       | filter by skill level of employee | */api/people?apiKey={apiKey}&level={level}*  | 
 | managers       | filter by managers of employee | */api/people?apiKey={apiKey}&managers={managers}*  | 
 | roles       | filter by roles of employee | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}*  |
-| fields       | which fields returned in JSON | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}*  |
+| fields       | which fields to be returned in query | */api/people?apiKey={apiKey}&fields={field1},{field2},...,{fieldN}*  |
+
+**Operations**
+
+| Operation Name| Separator                   | Description  | Usage |
+| -------------: | :----------------------------- | :----- | :--- |
+| OR       | , | Must satisfy at least one requirement | */api/people?apiKey={apiKey}&roles={role1},{role2},...,{roleN}*  |
+| AND       | ; | Must satisfy all requirements | */api/people?apiKey={apiKey}&roles={role1};{role2};...;{roleN}*  |
+
+**Operations Applicable on Fields**
+
+| Parameter Name | OR | AND  |
+| -------------: | :---:| :-----: | 
+| country       | N | N | 
+| fullName      | N | N  | 
+| level       | N |  N | 
+| managers       | N |  N | 
+| roles       | Y | Y  |
+| fields       | Y | N  |
 
 ## Getting Started
 
